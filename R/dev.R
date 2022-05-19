@@ -52,8 +52,3 @@
 
 #photoperiodic_eigen_vectors <- read.csv("/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/2_pipeline/1_DEI/030_clustering/photoperiodic/eigen_vec.csv", header = FALSE, row.names = 1)
 #usethis::use_data(photoperiodic_eigen_vectors)
-
-
-#usethis::use_data(aggcluster_res_AL, overwrite = TRUE)
-#pattern_clusters_AL <- aggcluster_to_list(aggcluster_out = aggcluster_res_AL, cutree_height = 0.84, original_matrix = all_expression_data)
-
