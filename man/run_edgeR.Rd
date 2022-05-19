@@ -5,7 +5,7 @@
 \title{Extract significantly up- and down-reguluted genes from edgeR results}
 \usage{
 run_edgeR(
-  dir = "/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/2_pipeline/1_DEI",
+  dir,
   edgeR_contrast_table = edgeR_contrasts,
   gene_count_table = read_count_matrix,
   sig_cutoff = 0.2,

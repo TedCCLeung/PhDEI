@@ -11,7 +11,7 @@
 #' @return None
 
 run_edgeR <- function(
-  dir = "/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/2_pipeline/1_DEI",
+  dir,
   edgeR_contrast_table = edgeR_contrasts,
   gene_count_table = read_count_matrix,
   sig_cutoff = 0.2,
@@ -21,8 +21,6 @@ run_edgeR <- function(
   ## STEP 0: SET UP DIRECTORIES -----------------------------
   if (!dir.exists(paste0(dir, "/1_edgeR_results"))){dir.create(paste0(dir, "/1_edgeR_results"), recursive = TRUE)}
   if (!dir.exists(paste0(dir, "/2_DEGs"))){dir.create(paste0(dir, "/2_DEGs"), recursive = TRUE)}
-  if (!dir.exists(paste0(dir, "/3_seasons"))){dir.create(paste0(dir, "/3_seasons"), recursive = TRUE)}
-
 
   ## STEP 1: Read inputs -----------------------------
   ## Read in contrast table

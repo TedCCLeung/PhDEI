@@ -30,6 +30,5 @@ run_master <- function(
 #   read_count_matrix = read_count_matrix,
 #   edgeR_contrast_table = edgeR_contrasts,
 #   DEI_annotation_table = DEI_annotation,
-#   eigen_vector_table = photoperiodic_eigen_vectors,
-#   output_dir = "/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/2_pipeline/1_DailyIntegral/"
+#   output_dir = "data-raw/"
 # )
